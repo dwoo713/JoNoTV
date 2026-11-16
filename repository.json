@@ -1,5 +1,5 @@
 {
-  "name": "WoolleyTV Picks",
+  "name": "JoNo TV Picks",
   "addons": [
     {"id": "picks.ted", "name": "TED Talks", "version": "1.0.0",
      "description": "The latest TED talks (video)",
