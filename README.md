@@ -1,11 +1,11 @@
-# WoolleyTV releases
+# JoNo TV releases
 
-Update channel for WoolleyTV, a family home screen for a Fire TV. `update.json` points at the newest
+Update channel for JoNo TV, a family home screen for a Fire TV. `update.json` points at the newest
 release APK; the TV checks it from Settings > Phone & updates.
 
 ## Add-ons
 
-WoolleyTV add-ons are JSON packages of media sources (they contain no code). Sources play on the
+JoNo TV add-ons are JSON packages of media sources (they contain no code). Sources play on the
 TV's Watch page.
 
 ```json
@@ -58,7 +58,7 @@ Every field in `guide` is optional; use whichever fits:
 | `m3u` | Channels from an M3U playlist; reads `tvg-id`, `tvg-name`, `tvg-logo`, `tvg-chno`, `group-title` (category). |
 | `epg` | XMLTV schedule (`.xml` or `.xml.gz`); programmes match channels by `tvg-id` / `id`. |
 | `channels` | Channels listed directly; same `id` as an M3U entry overrides it. |
-| `stream` | HLS (`.m3u8`, MPEG-TS segments) or MP4, played in WoolleyTV's player. fMP4/CMAF HLS doesn't play on this Fire TV. |
+| `stream` | HLS (`.m3u8`, MPEG-TS segments) or MP4, played in JoNo TV's player. fMP4/CMAF HLS doesn't play on this Fire TV. |
 | `open` | Instead of `stream`: an app or web link opened in the app that handles it. |
 | `programs` | Inline schedule; `start`/`stop` as ISO-8601 with offset, or epoch milliseconds. |
 | `local` | `true` puts the channel in the Local tab and at the top of All. |
